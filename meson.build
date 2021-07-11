@@ -40,6 +40,7 @@ endif
 warning_args = ['-Wshadow', '-Wnon-virtual-dtor', '-Wold-style-cast',
         '-Wcast-align', '-Wunused', '-Woverloaded-virtual', '-Wpedantic', '-Wconversion', '-Wsign-conversion',
         '-Wnull-dereference', '-Wdouble-promotion', '-Wformat=2']
+
 add_global_arguments(warning_args, language : 'cpp')
 
 #boost_dep = dependency('boost', modules : ['filesystem'])
@@ -54,7 +55,9 @@ iconv = cc.find_library('iconv', required : false)
 curl = cc.find_library('curl', required : false)
 lzma = cc.find_library('lzma', required : false)
 
+src = ['main.cpp', 'showNode.cpp']
+
 executable('WatchNext',
-           'main.cpp',
+           src,
            dependencies : [wx_dep, lm, wx_osx_cocoau_core, lz, pthread, iconv, curl, lzma],
-           install : true)
+           cpp_pch : 'pch/cpp_pch.h')

@@ -36,6 +36,8 @@
 //#include "../sample.xpm"
 #endif
 
+#include "showNode.cpp";
+
 //----------------------------------------------------------------------
 // class definitions
 //----------------------------------------------------------------------
@@ -108,25 +110,7 @@ public:
 #endif // wxUSE_TOOLTIPS
 
 #if wxUSE_CLIPBOARD
-    void OnPasteFromClipboard( wxCommandEvent& WXUNUSED(event) )
-    {
-        wxLogMessage("Pasting text from clipboard.");
-    }
-    void OnCopyToClipboard( wxCommandEvent& WXUNUSED(event) )
-    {
-        wxLogMessage("Copying text to clipboard.");
-    }
 
-    void OnUpdatePasteFromClipboard(wxUpdateUIEvent& event)
-    {
-        wxClipboardLocker lockClip;
-
-        event.Enable( wxTheClipboard->IsSupported(wxDF_TEXT) );
-    }
-
-    void OnUpdateCopyToClipboard(wxUpdateUIEvent& event)
-    {
-    }
 #endif // wxUSE_CLIPBOARD
 
     void OnAddTextLine(wxCommandEvent& WXUNUSED(event))
@@ -1017,11 +1001,7 @@ EVT_MENU(TEXT_TOOLTIPS_SETDELAY,  MyFrame::OnSetTooltipDelay)
 #endif // wxUSE_TOOLTIPS
 
 #if wxUSE_CLIPBOARD
-EVT_MENU(TEXT_CLIPBOARD_PASTE,    MyFrame::OnPasteFromClipboard)
-    EVT_MENU(TEXT_CLIPBOARD_COPY,     MyFrame::OnCopyToClipboard)
 
-    EVT_UPDATE_UI(TEXT_CLIPBOARD_PASTE, MyFrame::OnUpdatePasteFromClipboard)
-    EVT_UPDATE_UI(TEXT_CLIPBOARD_COPY,  MyFrame::OnUpdateCopyToClipboard)
 #endif // wxUSE_CLIPBOARD
 
 EVT_MENU(TEXT_REMOVE,             MyFrame::OnRemoveText)
@@ -1060,6 +1040,7 @@ MyFrame::MyFrame(const wxString& title, int x, int y)
     CreateStatusBar(2);
 #endif // wxUSE_STATUSBAR
 
+    Node node;
 }
 
 void MyFrame::OnQuit (wxCommandEvent& WXUNUSED(event) )
