@@ -1,12 +1,3 @@
-/////////////////////////////////////////////////////////////////////////////
-// Name:        text.cpp
-// Purpose:     TextCtrl wxWidgets sample
-// Author:      Robert Roebling
-// Modified by:
-// Copyright:   (c) Robert Roebling, Julian Smart, Vadim Zeitlin
-// Licence:     wxWindows licence
-/////////////////////////////////////////////////////////////////////////////
-
 // For compilers that support precompilation, includes "wx/wx.h".
 #include "wx/wxprec.h"
 
@@ -140,7 +131,9 @@ public:
 
     void OnAddTextLine(wxCommandEvent& WXUNUSED(event))
     {
-        static int s_n = 0;
+//        static int s_n = 0;
+        float d = 23234324.7;
+        int c = d;
     }
 
     void OnAddTextFreeze( wxCommandEvent& WXUNUSED(event) )
@@ -181,17 +174,17 @@ public:
 
     void OnGetLine(wxCommandEvent& WXUNUSED(event))
     {
-        long nLine = wxGetNumberFromUser("Which line would you like to get?",
-                                         "Enter which line you would like to get",
-                                         "Get a line from the tabbed multiline text control" );
+//        long nLine = wxGetNumberFromUser("Which line would you like to get?",
+//                                         "Enter which line you would like to get",
+//                                         "Get a line from the tabbed multiline text control" );
 
     }
 
     void OnGetLineLength(wxCommandEvent& WXUNUSED(event))
     {
-        long nLine = wxGetNumberFromUser("Which line would you like to get?",
-                                         "Enter which line you would like to get",
-                                         "Get length of a line from the tabbed multiline text control" );
+//        long nLine = wxGetNumberFromUser("Which line would you like to get?",
+//                                         "Enter which line you would like to get",
+//                                         "Get length of a line from the tabbed multiline text control" );
 
     }
 
