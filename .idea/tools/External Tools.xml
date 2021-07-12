@@ -3,14 +3,7 @@
     <exec>
       <option name="COMMAND" value="meson" />
       <option name="PARAMETERS" value="compile" />
-      <option name="WORKING_DIRECTORY" value="$ProjectFileDir$" />
-    </exec>
-  </tool>
-  <tool name="meson.clean" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
-    <exec>
-      <option name="COMMAND" value="/usr/local/bin/ninja" />
-      <option name="PARAMETERS" value="clean" />
-      <option name="WORKING_DIRECTORY" value="$ProjectFileDir$" />
+      <option name="WORKING_DIRECTORY" value="$ProjectFileDir$/builddir" />
     </exec>
   </tool>
 </toolSet>

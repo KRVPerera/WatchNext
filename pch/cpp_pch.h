@@ -1,8 +1,8 @@
 //
-// Created by Rukshan Perera on 2021-07-11.
+// Created by Rukshan Perera on 2021-07-12.
 //
 
-#ifndef BUILD_CPP_PCH_H
-#define BUILD_CPP_PCH_H
+#ifndef WATCHNEXT_CPP_PCH_H
+#define WATCHNEXT_CPP_PCH_H
 
-#endif //BUILD_CPP_PCH_H
+#endif //WATCHNEXT_CPP_PCH_H
