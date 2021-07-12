@@ -1,0 +1,20 @@
+[
+  {
+    "directory": "/Users/rukshanp/CLionProjects/WatchNext",
+    "command": "c++ -IWatchNext.p -I. -I/usr/local/lib/wx/include/osx_cocoa-unicode-3.1 -I/usr/local/include/wx-3.1 -fcolor-diagnostics -Wall -Winvalid-pch -Wnon-virtual-dtor -Wextra -Wpedantic -std=c++2a -g -Wshadow -Wnon-virtual-dtor -Wold-style-cast -Wcast-align -Wunused -Woverloaded-virtual -Wpedantic -Wconversion -Wsign-conversion -Wnull-dereference -Wdouble-promotion -Wformat=2 -D_FILE_OFFSET_BITS=64 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__ -x c++-header -MD -MQ builddir/WatchNext.p/cpp_pch.h.pch -MF builddir/WatchNext.p/cpp_pch.h.pch.d -o builddir/WatchNext.p/cpp_pch.h.pch -c pch/cpp_pch.h",
+    "file": "pch/cpp_pch.h",
+    "output": "builddir/WatchNext.p/cpp_pch.h.pch"
+  },
+  {
+    "directory": "/Users/rukshanp/CLionProjects/WatchNext",
+    "command": "c++ -IWatchNext.p -I. -I/usr/local/lib/wx/include/osx_cocoa-unicode-3.1 -I/usr/local/include/wx-3.1 -fcolor-diagnostics -Wall -Winvalid-pch -Wnon-virtual-dtor -Wextra -Wpedantic -std=c++2a -g -Wshadow -Wnon-virtual-dtor -Wold-style-cast -Wcast-align -Wunused -Woverloaded-virtual -Wpedantic -Wconversion -Wsign-conversion -Wnull-dereference -Wdouble-promotion -Wformat=2 -D_FILE_OFFSET_BITS=64 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__ -include-pch builddir/WatchNext.p/cpp_pch.h.pch -MD -MQ builddir/WatchNext.p/main.cpp.o -MF builddir/WatchNext.p/main.cpp.o.d -o builddir/WatchNext.p/main.cpp.o -c main.cpp",
+    "file": "main.cpp",
+    "output": "builddir/WatchNext.p/main.cpp.o"
+  },
+  {
+    "directory": "/Users/rukshanp/CLionProjects/WatchNext",
+    "command": "c++ -IWatchNext.p -I. -I/usr/local/lib/wx/include/osx_cocoa-unicode-3.1 -I/usr/local/include/wx-3.1 -fcolor-diagnostics -Wall -Winvalid-pch -Wnon-virtual-dtor -Wextra -Wpedantic -std=c++2a -g -Wshadow -Wnon-virtual-dtor -Wold-style-cast -Wcast-align -Wunused -Woverloaded-virtual -Wpedantic -Wconversion -Wsign-conversion -Wnull-dereference -Wdouble-promotion -Wformat=2 -D_FILE_OFFSET_BITS=64 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__ -include-pch builddir/WatchNext.p/cpp_pch.h.pch -MD -MQ builddir/WatchNext.p/showNode.cpp.o -MF builddir/WatchNext.p/showNode.cpp.o.d -o builddir/WatchNext.p/showNode.cpp.o -c builddir/showNode.cpp",
+    "file": "showNode.cpp",
+    "output": "builddir/WatchNext.p/showNode.cpp.o"
+  }
+]
