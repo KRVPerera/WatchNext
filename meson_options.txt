@@ -1,1 +1,1 @@
-option('warning_as_error', type : 'boolean', value : false, description : 'Convert warning to error')
+#option('warning_as_error', type : 'boolean', value : false, description : 'Convert warning to error')
