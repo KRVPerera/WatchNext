@@ -12,23 +12,10 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0bbbe4d2-f376-43e7-9ff2-b92c6aa0f6c5" name="Default Changelist" comment="Add compile_commands.json to vcs">
-      <change afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/SeedrAPI.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/SeedrAPI.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cApp.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cApp.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cMain.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cMain.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/customTargets.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/customTargets.xml" afterDir="false" />
+    <list default="true" id="0bbbe4d2-f376-43e7-9ff2-b92c6aa0f6c5" name="Default Changelist" comment="New files">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vscode/c_cpp_properties.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vscode/launch.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vscode/tasks.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/meson.build" beforeDir="false" afterPath="$PROJECT_DIR$/meson.build" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/meson_options.txt" beforeDir="false" afterPath="$PROJECT_DIR$/meson_options.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cMain.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/cMain.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -189,6 +176,18 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add compile_commands.json to vcs" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add compile_commands.json to vcs" />
+    <MESSAGE value="New files" />
+    <option name="LAST_COMMIT_MESSAGE" value="New files" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/src/cMain.h</url>
+          <line>7</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
