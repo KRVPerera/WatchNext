@@ -147,7 +147,7 @@
       <workItem from="1637124981587" duration="440000" />
       <workItem from="1637172204330" duration="27000" />
       <workItem from="1637172673054" duration="2050000" />
-      <workItem from="1637444086793" duration="393000" />
+      <workItem from="1637444086793" duration="462000" />
     </task>
     <task id="LOCAL-00001" summary="Add compile_commands.json to vcs">
       <created>1626067602217</created>
@@ -177,7 +177,21 @@
       <option name="project" value="LOCAL" />
       <updated>1637445010917</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="ignore">
+      <created>1637445076088</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1637445076088</updated>
+    </task>
+    <task id="LOCAL-00006" summary="ignore">
+      <created>1637445116051</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1637445116051</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
