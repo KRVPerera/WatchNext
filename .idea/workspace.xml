@@ -12,7 +12,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0bbbe4d2-f376-43e7-9ff2-b92c6aa0f6c5" name="Default Changelist" comment="add more checks">
+    <list default="true" id="0bbbe4d2-f376-43e7-9ff2-b92c6aa0f6c5" name="Default Changelist" comment="ignore">
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -147,7 +147,7 @@
       <workItem from="1637124981587" duration="440000" />
       <workItem from="1637172204330" duration="27000" />
       <workItem from="1637172673054" duration="2050000" />
-      <workItem from="1637444086793" duration="308000" />
+      <workItem from="1637444086793" duration="393000" />
     </task>
     <task id="LOCAL-00001" summary="Add compile_commands.json to vcs">
       <created>1626067602217</created>
@@ -170,7 +170,14 @@
       <option name="project" value="LOCAL" />
       <updated>1637444929193</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="ignore">
+      <created>1637445010917</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1637445010917</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -193,6 +200,7 @@
     <MESSAGE value="New files" />
     <MESSAGE value="Fix CMakeLists.txt" />
     <MESSAGE value="add more checks" />
-    <option name="LAST_COMMIT_MESSAGE" value="add more checks" />
+    <MESSAGE value="ignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="ignore" />
   </component>
 </project>

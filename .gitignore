@@ -54,3 +54,5 @@ compile_commands.json
 #.idea/
 build
 buildC
+
+.DS_Store
