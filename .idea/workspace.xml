@@ -12,16 +12,9 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0bbbe4d2-f376-43e7-9ff2-b92c6aa0f6c5" name="Default Changelist" comment="Fix CMakeLists.txt">
-      <change afterPath="$PROJECT_DIR$/.clang-format" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.clang-tidy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake/Cache.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake/CompilerWarnings.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake/Linker.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake/StandardProjectSettings.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake/StaticAnalyzers.cmake" afterDir="false" />
+    <list default="true" id="0bbbe4d2-f376-43e7-9ff2-b92c6aa0f6c5" name="Default Changelist" comment="add more checks">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -154,7 +147,7 @@
       <workItem from="1637124981587" duration="440000" />
       <workItem from="1637172204330" duration="27000" />
       <workItem from="1637172673054" duration="2050000" />
-      <workItem from="1637444086793" duration="241000" />
+      <workItem from="1637444086793" duration="308000" />
     </task>
     <task id="LOCAL-00001" summary="Add compile_commands.json to vcs">
       <created>1626067602217</created>
@@ -170,7 +163,14 @@
       <option name="project" value="LOCAL" />
       <updated>1637440760776</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="add more checks">
+      <created>1637444929193</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1637444929193</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -192,6 +192,7 @@
     <MESSAGE value="Add compile_commands.json to vcs" />
     <MESSAGE value="New files" />
     <MESSAGE value="Fix CMakeLists.txt" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix CMakeLists.txt" />
+    <MESSAGE value="add more checks" />
+    <option name="LAST_COMMIT_MESSAGE" value="add more checks" />
   </component>
 </project>
