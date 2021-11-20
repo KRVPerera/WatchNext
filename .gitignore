@@ -55,4 +55,4 @@ compile_commands.json
 build
 buildC
 
-.DS_Store
+*.DS_Store
