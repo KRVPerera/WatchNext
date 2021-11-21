@@ -12,9 +12,13 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0bbbe4d2-f376-43e7-9ff2-b92c6aa0f6c5" name="Default Changelist" comment="ignore">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="0ced1345-eeef-47c5-806c-8ab8b21c9425" name="Changes" comment="ignore">
+      <change afterPath="$PROJECT_DIR$/test/test.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/test.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cApp.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/cApp.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cApp.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/cApp.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +87,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="CLionExternalConfigurable" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -121,7 +125,7 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="0bbbe4d2-f376-43e7-9ff2-b92c6aa0f6c5" name="Default Changelist" comment="" />
+      <changelist id="0ced1345-eeef-47c5-806c-8ab8b21c9425" name="Changes" comment="ignore" />
       <created>1626067154776</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -147,7 +151,9 @@
       <workItem from="1637124981587" duration="440000" />
       <workItem from="1637172204330" duration="27000" />
       <workItem from="1637172673054" duration="2050000" />
-      <workItem from="1637444086793" duration="462000" />
+      <workItem from="1637444086793" duration="660000" />
+      <workItem from="1637449582822" duration="2258000" />
+      <workItem from="1637473265440" duration="2523000" />
     </task>
     <task id="LOCAL-00001" summary="Add compile_commands.json to vcs">
       <created>1626067602217</created>
@@ -191,7 +197,21 @@
       <option name="project" value="LOCAL" />
       <updated>1637445116051</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="ignore">
+      <created>1637445144203</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1637445144203</updated>
+    </task>
+    <task id="LOCAL-00008" summary="ignore">
+      <created>1637445187891</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1637445187891</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

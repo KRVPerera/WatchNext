@@ -8,6 +8,10 @@
 #include "wx/wx.h"
 #include "cMain.h"
 
+#include <wx/defs.h>     // for wxOVERRIDE
+#include <wx/osx/app.h>  // for wxApp
+class cMain;
+
 class cApp : public wxApp {
 
         private:
