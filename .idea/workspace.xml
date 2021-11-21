@@ -12,13 +12,10 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0ced1345-eeef-47c5-806c-8ab8b21c9425" name="Changes" comment="ignore">
-      <change afterPath="$PROJECT_DIR$/test/test.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/test.h" afterDir="false" />
+    <list default="true" id="0ced1345-eeef-47c5-806c-8ab8b21c9425" name="Changes" comment="Add spdlog">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cApp.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/cApp.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cApp.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/cApp.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/meson.build" beforeDir="false" afterPath="$PROJECT_DIR$/meson.build" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/meson.build" beforeDir="false" afterPath="$PROJECT_DIR$/src/meson.build" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -153,7 +150,7 @@
       <workItem from="1637172673054" duration="2050000" />
       <workItem from="1637444086793" duration="660000" />
       <workItem from="1637449582822" duration="2258000" />
-      <workItem from="1637473265440" duration="2523000" />
+      <workItem from="1637473265440" duration="3194000" />
     </task>
     <task id="LOCAL-00001" summary="Add compile_commands.json to vcs">
       <created>1626067602217</created>
@@ -211,7 +208,14 @@
       <option name="project" value="LOCAL" />
       <updated>1637445187891</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Add spdlog">
+      <created>1637484030050</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1637484030050</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -235,6 +239,7 @@
     <MESSAGE value="Fix CMakeLists.txt" />
     <MESSAGE value="add more checks" />
     <MESSAGE value="ignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="ignore" />
+    <MESSAGE value="Add spdlog" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add spdlog" />
   </component>
 </project>
